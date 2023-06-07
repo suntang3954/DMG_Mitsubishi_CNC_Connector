@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import scrolledtext, messagebox
-from testObject import TestObject
+from m700 import M700
 import time
 
 class DMGoperator():
@@ -11,7 +11,7 @@ class DMGoperator():
         self._key = 0
         self._key_exe = 0
         self.nc_sn = ''
-        self._mc = TestObject()
+        self._mc = M700()
         self.root = Tk()
 
         self.root.geometry('640x640')
